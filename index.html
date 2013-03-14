@@ -108,6 +108,31 @@ $(document).ready(function() {
 		<source src="video/Headlands04.webm" type='video/webm'>
 			Your browser does not support the video tag.
 	</video>
+	<video id="video5" class="videobox" autoplay loop preload="auto">
+		<source src="video/Headlands05.mp4" type="video/mp4">
+		<source src="video/Headlands05.webm" type='video/webm'>
+			Your browser does not support the video tag.
+	</video>
+	<video id="video6" class="videobox" autoplay loop preload="auto">
+		<source src="video/Headlands06.mp4" type="video/mp4">
+		<source src="video/Headlands06.webm" type='video/webm'>
+			Your browser does not support the video tag.
+	</video>
+	<video id="video7" class="videobox" autoplay loop preload="auto">
+		<source src="video/Headlands07.mp4" type="video/mp4">
+		<source src="video/Headlands07.webm" type='video/webm'>
+			Your browser does not support the video tag.
+	</video>
+	<video id="video8" class="videobox" autoplay loop preload="auto">
+		<source src="video/Headlands08.mp4" type="video/mp4">
+		<source src="video/Headlands08.webm" type='video/webm'>
+			Your browser does not support the video tag.
+	</video>
+	<video id="video9" class="videobox" autoplay loop preload="auto">
+		<source src="video/Headlands09.mp4" type="video/mp4">
+		<source src="video/Headlands09.webm" type='video/webm'>
+			Your browser does not support the video tag.
+	</video>
 
 <!--Header-->
 	<div class="header">
@@ -122,6 +147,11 @@ $(document).ready(function() {
 				<a href="" data-show="#video2, #video-link-2" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands02.png" id="video-link-2" class="TN"></a>
 				<a href="" data-show="#video3, #video-link-3" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands03.png" id="video-link-3" class="TN"></a>
 				<a href="" data-show="#video4, #video-link-4" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands04.png" id="video-link-4" class="TN"></a>
+				<a href="" data-show="#video5, #video-link-5" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands05.png" id="video-link-4" class="TN"></a>
+				<a href="" data-show="#video6, #video-link-6" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands06.png" id="video-link-4" class="TN"></a>
+				<a href="" data-show="#video7, #video-link-7" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands07.png" id="video-link-4" class="TN"></a>
+				<a href="" data-show="#video8, #video-link-8" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands08.png" id="video-link-4" class="TN"></a>
+				<a href="" data-show="#video9, #video-link-9" data-hide=".videobox, .TN, #navigation" data-class="visible"><img src="img/TN_Headlands09.png" id="video-link-4" class="TN"></a>
 			</div>
 	</div>
 
@@ -136,18 +166,24 @@ $(document).ready(function() {
 			-->
 	</div>
 	<div id="intro1" class="float visible">
-		<!-- Add "hide" button that makes window go to the side or bottom of the screen-->
+		<!-- minimize button -->
+		<span class="button-white" style="float:right;"><a href="" data-show="#min-intro1" data-hide="#intro1" data-class="visible">-</a></span>
+		<!-- introductory text -->
 		<h2><em>The Marin Headlands in Fog</em></h2>
 		<h3>A Multimedia Installation / Documentary for the Web</h3>
 		<p>Music, Video, and Website Created by <a href="http://nellshawcohen.com" target="_blank">Nell Shaw Cohen</a></p>
 		<p class="small">"CHOOSE A NEW VIEW" at the top left at any time to select a new shot of the Marin Headlands.</p>
-		<p class="small">Now Playing: <em>Places in the Bay Area - II. The Marin Headlands in Fog</em> by Nell Shaw Cohen. <a href="http://nellshawcohen.com/music_chamber.html#places" target="_blank">Learn more about this recording.</a></p>
+		<p class="small">Music: <em>Places in the Bay Area - II. The Marin Headlands in Fog</em> by Nell Shaw Cohen. <a href="http://nellshawcohen.com/music_chamber.html#places" target="_blank">Learn more about this recording.</a></p>
 		<p><a href="" data-show="#intro2, #intro3" data-hide="#intro1" data-class="visible" id="aboutheadlands"><span class="button">About the Marin Headlands</span></a></p>
 	</div>
+	<div id="min-intro1" class="float">
+		<!-- maximize button for intro1 -->
+		<span class="button-white"><a href="" data-show="#intro1" data-hide="#min-intro1" data-class="visible">+</a></span>
+	</div>
 	<div id="intro2" class="float">
-		<p>The Marin Headlands is a hilly coastline in Marin Country, just across the Golden Gate Bridge from San Francisco, California.</p>
-		<p>It is part of the <a href="http://www.nps.gov/goga/marin-headlands.htm" target="_blank">Golden Gate National Recreation Area</a>, a protected area of the U.S. National Park Service, and is a popular site for hiking and recreation.</p>
-		<p>It also one of my personal favorite landscapes. I've visited this place countless times since childhood, and was compelled to write music inspired by the Headlands' atmosphere and to take many pictures and videos of it.</p>
+		<p>A popular site for hiking and outdoor recreation, the Marin Headlands is a hilly stretch of Pacific coastline in Marin Country, just across the Golden Gate Bridge from San Francisco, California.</p>
+		<p>The Headlands is part of the <a href="http://www.nps.gov/goga/marin-headlands.htm" target="_blank">Golden Gate National Recreation Area</a>, a protected area of the U.S. National Park Service.</p>
+		<p>It also one of my personal favorite landscapes. I've visited this place countless times since childhood and was compelled to write music inspired by the Headlands' atmosphere. I shot the footage you see on this website in 2012 on a foggy summer day.</p>
 		<p><a href="" data-show="#intro1" data-hide="#intro2, #intro3" data-class="visible" id="back"><span class="button">BACK</span></a></p>
 	</div>
 	<div id="intro3" class="float2">

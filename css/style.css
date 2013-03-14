@@ -45,6 +45,28 @@ a:focus {
   background: -moz-linear-gradient(top,  #1463AE,  #0B3E6E);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1463AE', endColorstr='#0B3E6E');
 }
+.button-white {
+  width: 20px;
+  height: 20px;
+  margin: 15px 0 0 0;
+  background-color: #2A3A48;
+  border: #fff 2px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.button-white a {
+  color: #fff;
+}
+.button-white a:hover {
+  color: #FF9999;
+}
+#min-intro1 .button-white {
+  padding: 0 5px 0 5px;
+}
+#min-intro1 {
+  padding: 10px;
+}
 
 /* Structural page elements */
 
@@ -53,8 +75,8 @@ a:focus {
   background: #000;
 }
 #map_canvas {
-  width: 400px;
-  height: 400px; 
+  width: 500px;
+  height: 500px;
 }
 .float {
   z-index: -1 !important;
@@ -76,7 +98,6 @@ a:focus {
 .float2 {
   z-index: -1 !important;
   position: fixed;
-  max-width: 440px;
   left: 25px;
   bottom: 50px;
   padding: 15px;
@@ -158,6 +179,7 @@ a:focus {
   z-index: 1 !important;
   position: fixed;
   background-color: #2A3A48;
+  max-width: 375px;
   padding: 5px;
   top: 70px; /* -180px to hide */
   left: -620px;
